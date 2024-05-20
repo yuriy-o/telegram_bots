@@ -1,0 +1,23 @@
+{
+  "name": "Telegram Bots",
+  "version": "1.0.3",
+  "main": "bot3.js",
+  "scripts": {
+    "start": "node bot3.js",
+    "start:dev": "nodemon bot3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.1",
+    "openai": "^4.47.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
